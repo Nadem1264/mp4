@@ -1,0 +1,6 @@
+$(document).ready(function() { 
+    $("#likebox").delay(2000).animate({position:'relative',left:'-=23%'}).delay("fast").animate({position:'relative',left:'+=2%'});
+	$("#closebox1").click(function(){
+    $("#likebox").animate({position:'relative',left:'-=2%'}).delay("fast").animate({position:'relative',left:'+=20%'});
+   });  
+});

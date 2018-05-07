@@ -1,0 +1,76 @@
+.language{
+position:fixed;
+top:0;
+right:0;
+left:0;
+margin-right:auto;
+margin-left:auto;
+z-index:1;
+}
+.likebox{
+width:205px;
+text-align:left;
+font-family:Verdana;
+border: 1px #2e92cf solid;
+color: #2e92cf !important;
+position:fixed;
+top:83%;
+left:103%;
+padding:7px;
+border-radius:4px;
+background-color:#fff;
+z-index:9999999;
+}
+#closebox1{
+float:right;
+font-family:comic sans ms;
+font-weight:bold;
+cursor:pointer;
+}
+#loginmessage{
+position: absolute;
+width: 565px;
+height: 1200px;
+z-index: 1;
+left: 230px;
+top: 190px;
+}
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+.custom-counter li {
+    counter-increment: step-counter;
+}
+.custom-counter li::before {
+    content: counter(step-counter);
+    font-size: 100%;
+    background-color: rgb(97,97,97);
+    color: white;
+    font-weight: bold;
+	font-family:comic sans ms;
+    padding: 3px 8px;
+	border-radius:3em;
+}
+#fanbox {
+display:none;
+background:rgba(0,0,0,0.8);
+width:100%;
+height:100%;
+position:fixed;
+top:0;
+left:0;
+z-index:99999;
+}
+#fanbox-content {
+position:absolute;
+top:58%;
+left:63%;
+margin:-220px 0 0 -375px;
+}
+#closebox{
+	position:absolute;
+	top:0;
+	right:0;
+}
